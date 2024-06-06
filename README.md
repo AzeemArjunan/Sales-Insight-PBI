@@ -21,13 +21,13 @@ Output: 150283 records
 
 - Step 5: Checked the total number of customers. The following query was written:
   
-SELECT count(*) FROM customers;`
+SELECT count(*) FROM customers;
 
 Output: 38 counts
 
 - Step 6: Checked the transactions only for Chennai (market code for chennai is Mark001). The following query was written:
   
-SELECT * FROM transactions where market_code='Mark001';`
+SELECT * FROM transactions where market_code='Mark001';
 
 - Step 7: Checked how many transactions in the USD currency. The following query was written:
   
@@ -53,7 +53,7 @@ Output: 2463024 INR revenue
 
 - Step 11: Checked distinct product codes that were sold in Chennai. The following query was written:
   
-SELECT distinct product_code FROM transactions where market_code='Mark001';`
+SELECT distinct product_code FROM transactions where market_code='Mark001';
 
 In Power BI(ETL)
 
@@ -93,6 +93,7 @@ Output: 150000 records
 - Step 23: Checked INR counts using the following query.
   
 select(*) FROM transactions where transactions.currency=’INR’;
+
 Output: 279 records
 
 - Step 24: Checked USD counts using the following query.
